@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    margin:0;
+     box-sizing:"border-box";
+    font-family: "poppins",sans-serif;
+}
+.poppins-thin {
+    font-family: "Poppins", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", system-ui;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+                    
+  
+  .poppins-light {
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", system-ui;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", system-ui;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 900;
+    font-style: italic;
+  }
+  body{
+    background: black;
+  }
+  .container{
+  
+  background-color: rgb(170, 87, 87);  
+    width:100%;
+    max-width: 470px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    margin:100px auto 0px;
+    padding:40px 30px;
+    border-radius: 30px;
+  
+}
+.searchbar{
+display:flex;
+
+ width: 309px;
+ background-color: azure;
+ margin:auto
+}
+.searchbtn{
+  border:none;
+}
+
+#input{
+  border:none;
+  outline: none;
+  padding: 6px 0;
+  background:transparent;
+  position:absolute;
+  width:270px;
+}
+#icon{
+  padding:8px;
+  position:relative;
+  color:grey;
+}
+.weather_icon{
+  height:120px;
+  margin:15px;
+}
+.temperature{
+  color:white;
+  text-align: center;
+}
+.city{
+  color:white;
+  text-align: center;
+}
+.humidity img{
+  height:40px;
+}
+.humidity h2{
+  font-size: 120%;
+  color:white;
+}
+.humidity h3{
+  font-size: 90%;
+  color:white;
+}
+.windspeed img{
+  height:40px;
+}
+.windspeed h2{
+  font-size: 120%;
+  color:white;
+}
+.windspeed h3{
+  font-size: 90%;
+  color:white;
+}
+.weather_details{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:80px;
+}

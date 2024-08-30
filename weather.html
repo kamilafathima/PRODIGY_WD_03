@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=weather.css>
+    <title> Know your weather</title>
+    <link rel="icon" href="images_weather/cloudy.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchbar">
+            <p>
+              <button class="searchbtn">  <i class="fa-solid fa-magnifying-glass" id="icon"></i></button>
+                <input id="input" type="search" placeholder="Enter your city" spellcheck="false">
+            </p>
+        </div>
+
+        <div class="weather">
+           <center> <img class="weather_icon" src="images_weather/rainy.png" ></center>
+            <h1 class="temperature">20<sup>°C</sup></h1>
+            <h2 class="city">Rainy</h2>
+
+        </div>
+
+        <div class="weather_details">
+            <div class="humidity_block">
+                <table>
+                    <tr>
+                        <td class="humidity">
+
+                            <img src="images_weather/humidity.png">
+                        </td>
+
+                        <td class="humidity">
+                            <p>
+                            <h2 id="humidity1">62%</h2>
+                            </p>
+                            <p>
+                            <h3> Humidity</h3>
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <div class="windspeed_block">
+                <table>
+                    <tr>
+                        <td class="windspeed">
+
+                            <img src="images_weather/wind.png">
+                        </td>
+
+                        <td class="windspeed">
+                            <p>
+                            <h2 id="windspeed1">8km/hr</h2>
+                            </p>
+                            <p>
+                            <h3>windspeed</h3>
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="weather_data.js"></script>
+
+</body>
+
+</html>
